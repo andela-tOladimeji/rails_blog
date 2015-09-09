@@ -1,20 +1,21 @@
 Planning our application
 
-Answer Questions
+1. Answer Questions
 	What are we building?
 	Who are we building it for?
 	What features do we need to have?
-User Stories
-Model our Data
-Think through the pages we need in our app
+	
+2. User Stories
+3. Model our Data
+4. Think through the pages we need in our app
 
 Questions
 
-What are we building? We are building a personal site. A place where we can blog, share examples of our work, and have people contact us.
+1. What are we building? We are building a personal site. A place where we can blog, share examples of our work, and have people contact us.
 
-Who are we building it for? We are building it for ourselves, but also the community. Sharing what we are learning by blogging is a great way to learn for ourselves, but we teach others in the process. Show potential employers that we know what we are doing.
+2. Who are we building it for? We are building it for ourselves, but also the community. Sharing what we are learning by blogging is a great way to learn for ourselves, but we teach others in the process. Show potential employers that we know what we are doing.
 
-What features do we want to have?
+3. What features do we want to have?
 	Posts
 		Create / Edit / Destroy
 		Markdown

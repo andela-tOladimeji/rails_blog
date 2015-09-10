@@ -1,14 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="">
 <head>
-  <title>Blog</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oladimeji Tolu - UX Designer / Developer</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+<header id="main_navigation" class="clearfix">
+  <a href="#" class="logo">Oladimeji Tolu</a>
+   <nav>
+   	<%= link_to "Articles", posts_path %>
+     <a href="#">Projects</a>
+     <a href="#">Contact</a>
+   </nav>
+ </header>
 
 <%= yield %>
+
+<footer id="main_footer">
+    <p class="copyright">&copy 2015 Oladimeji Tolu</p>
+    <nav>
+      <a href=""><i class="fa fa-twitter"></i></a>
+      <a href=""><i class="fa fa-instagram"></i></a>
+      <a href=""><i class="fa fa-dribbble"></i></a>
+      <a href=""><i class="fa fa-linkedin"></i></a>
+      <a href=""><i class="fa fa-github"></i></a>
+      <a href=""><i class="fa fa-bitbucket"></i></a>
+    </nav>
+</footer>
 
 </body>
 </html>
